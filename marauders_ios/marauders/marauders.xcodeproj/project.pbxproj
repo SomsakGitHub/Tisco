@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEE2B02C2B585D66002E87BE /* maraudersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE2B02B2B585D66002E87BE /* maraudersApp.swift */; };
+		FEE2B02E2B585D66002E87BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE2B02D2B585D66002E87BE /* ContentView.swift */; };
+		FEE2B0302B585D68002E87BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEE2B02F2B585D68002E87BE /* Assets.xcassets */; };
+		FEE2B0332B585D68002E87BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEE2B0322B585D68002E87BE /* Preview Assets.xcassets */; };
+		FEE2B03D2B585D68002E87BE /* maraudersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE2B03C2B585D68002E87BE /* maraudersTests.swift */; };
+		FEE2B0472B585D68002E87BE /* maraudersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE2B0462B585D68002E87BE /* maraudersUITests.swift */; };
+		FEE2B0492B585D68002E87BE /* maraudersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE2B0482B585D68002E87BE /* maraudersUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEE2B0392B585D68002E87BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEE2B0202B585D66002E87BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEE2B0272B585D66002E87BE;
+			remoteInfo = marauders;
+		};
+		FEE2B0432B585D68002E87BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEE2B0202B585D66002E87BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEE2B0272B585D66002E87BE;
+			remoteInfo = marauders;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FEE2B0282B585D66002E87BE /* marauders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = marauders.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEE2B02B2B585D66002E87BE /* maraudersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maraudersApp.swift; sourceTree = "<group>"; };
+		FEE2B02D2B585D66002E87BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FEE2B02F2B585D68002E87BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEE2B0322B585D68002E87BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FEE2B0382B585D68002E87BE /* maraudersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = maraudersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEE2B03C2B585D68002E87BE /* maraudersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maraudersTests.swift; sourceTree = "<group>"; };
+		FEE2B0422B585D68002E87BE /* maraudersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = maraudersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEE2B0462B585D68002E87BE /* maraudersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maraudersUITests.swift; sourceTree = "<group>"; };
+		FEE2B0482B585D68002E87BE /* maraudersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maraudersUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEE2B0252B585D66002E87BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEE2B0352B585D68002E87BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEE2B03F2B585D68002E87BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEE2B01F2B585D66002E87BE = {
+			isa = PBXGroup;
+			children = (
+				FEE2B02A2B585D66002E87BE /* marauders */,
+				FEE2B03B2B585D68002E87BE /* maraudersTests */,
+				FEE2B0452B585D68002E87BE /* maraudersUITests */,
+				FEE2B0292B585D66002E87BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEE2B0292B585D66002E87BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEE2B0282B585D66002E87BE /* marauders.app */,
+				FEE2B0382B585D68002E87BE /* maraudersTests.xctest */,
+				FEE2B0422B585D68002E87BE /* maraudersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEE2B02A2B585D66002E87BE /* marauders */ = {
+			isa = PBXGroup;
+			children = (
+				FEE2B02B2B585D66002E87BE /* maraudersApp.swift */,
+				FEE2B02D2B585D66002E87BE /* ContentView.swift */,
+				FEE2B02F2B585D68002E87BE /* Assets.xcassets */,
+				FEE2B0312B585D68002E87BE /* Preview Content */,
+			);
+			path = marauders;
+			sourceTree = "<group>";
+		};
+		FEE2B0312B585D68002E87BE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FEE2B0322B585D68002E87BE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FEE2B03B2B585D68002E87BE /* maraudersTests */ = {
+			isa = PBXGroup;
+			children = (
+				FEE2B03C2B585D68002E87BE /* maraudersTests.swift */,
+			);
+			path = maraudersTests;
+			sourceTree = "<group>";
+		};
+		FEE2B0452B585D68002E87BE /* maraudersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FEE2B0462B585D68002E87BE /* maraudersUITests.swift */,
+				FEE2B0482B585D68002E87BE /* maraudersUITestsLaunchTests.swift */,
+			);
+			path = maraudersUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEE2B0272B585D66002E87BE /* marauders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEE2B04C2B585D68002E87BE /* Build configuration list for PBXNativeTarget "marauders" */;
+			buildPhases = (
+				FEE2B0242B585D66002E87BE /* Sources */,
+				FEE2B0252B585D66002E87BE /* Frameworks */,
+				FEE2B0262B585D66002E87BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = marauders;
+			productName = marauders;
+			productReference = FEE2B0282B585D66002E87BE /* marauders.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEE2B0372B585D68002E87BE /* maraudersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEE2B04F2B585D68002E87BE /* Build configuration list for PBXNativeTarget "maraudersTests" */;
+			buildPhases = (
+				FEE2B0342B585D68002E87BE /* Sources */,
+				FEE2B0352B585D68002E87BE /* Frameworks */,
+				FEE2B0362B585D68002E87BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEE2B03A2B585D68002E87BE /* PBXTargetDependency */,
+			);
+			name = maraudersTests;
+			productName = maraudersTests;
+			productReference = FEE2B0382B585D68002E87BE /* maraudersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FEE2B0412B585D68002E87BE /* maraudersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEE2B0522B585D68002E87BE /* Build configuration list for PBXNativeTarget "maraudersUITests" */;
+			buildPhases = (
+				FEE2B03E2B585D68002E87BE /* Sources */,
+				FEE2B03F2B585D68002E87BE /* Frameworks */,
+				FEE2B0402B585D68002E87BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEE2B0442B585D68002E87BE /* PBXTargetDependency */,
+			);
+			name = maraudersUITests;
+			productName = maraudersUITests;
+			productReference = FEE2B0422B585D68002E87BE /* maraudersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEE2B0202B585D66002E87BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					FEE2B0272B585D66002E87BE = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					FEE2B0372B585D68002E87BE = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = FEE2B0272B585D66002E87BE;
+					};
+					FEE2B0412B585D68002E87BE = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = FEE2B0272B585D66002E87BE;
+					};
+				};
+			};
+			buildConfigurationList = FEE2B0232B585D66002E87BE /* Build configuration list for PBXProject "marauders" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEE2B01F2B585D66002E87BE;
+			productRefGroup = FEE2B0292B585D66002E87BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEE2B0272B585D66002E87BE /* marauders */,
+				FEE2B0372B585D68002E87BE /* maraudersTests */,
+				FEE2B0412B585D68002E87BE /* maraudersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEE2B0262B585D66002E87BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEE2B0332B585D68002E87BE /* Preview Assets.xcassets in Resources */,
+				FEE2B0302B585D68002E87BE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEE2B0362B585D68002E87BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEE2B0402B585D68002E87BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEE2B0242B585D66002E87BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEE2B02E2B585D66002E87BE /* ContentView.swift in Sources */,
+				FEE2B02C2B585D66002E87BE /* maraudersApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEE2B0342B585D68002E87BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEE2B03D2B585D68002E87BE /* maraudersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEE2B03E2B585D68002E87BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEE2B0472B585D68002E87BE /* maraudersUITests.swift in Sources */,
+				FEE2B0492B585D68002E87BE /* maraudersUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEE2B03A2B585D68002E87BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEE2B0272B585D66002E87BE /* marauders */;
+			targetProxy = FEE2B0392B585D68002E87BE /* PBXContainerItemProxy */;
+		};
+		FEE2B0442B585D68002E87BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEE2B0272B585D66002E87BE /* marauders */;
+			targetProxy = FEE2B0432B585D68002E87BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FEE2B04A2B585D68002E87BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FEE2B04B2B585D68002E87BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEE2B04D2B585D68002E87BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"marauders/Preview Content\"";
+				DEVELOPMENT_TEAM = 9U8PYJFN94;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = somsak.marauders;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEE2B04E2B585D68002E87BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"marauders/Preview Content\"";
+				DEVELOPMENT_TEAM = 9U8PYJFN94;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = somsak.marauders;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FEE2B0502B585D68002E87BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9U8PYJFN94;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = somsak.maraudersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/marauders.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/marauders";
+			};
+			name = Debug;
+		};
+		FEE2B0512B585D68002E87BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9U8PYJFN94;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = somsak.maraudersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/marauders.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/marauders";
+			};
+			name = Release;
+		};
+		FEE2B0532B585D68002E87BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9U8PYJFN94;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = somsak.maraudersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = marauders;
+			};
+			name = Debug;
+		};
+		FEE2B0542B585D68002E87BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9U8PYJFN94;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = somsak.maraudersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = marauders;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEE2B0232B585D66002E87BE /* Build configuration list for PBXProject "marauders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEE2B04A2B585D68002E87BE /* Debug */,
+				FEE2B04B2B585D68002E87BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEE2B04C2B585D68002E87BE /* Build configuration list for PBXNativeTarget "marauders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEE2B04D2B585D68002E87BE /* Debug */,
+				FEE2B04E2B585D68002E87BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEE2B04F2B585D68002E87BE /* Build configuration list for PBXNativeTarget "maraudersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEE2B0502B585D68002E87BE /* Debug */,
+				FEE2B0512B585D68002E87BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEE2B0522B585D68002E87BE /* Build configuration list for PBXNativeTarget "maraudersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEE2B0532B585D68002E87BE /* Debug */,
+				FEE2B0542B585D68002E87BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEE2B0202B585D66002E87BE /* Project object */;
+}

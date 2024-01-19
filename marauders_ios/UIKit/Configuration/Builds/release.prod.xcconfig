@@ -1,0 +1,12 @@
+//
+//  release.prod.xcconfig
+//  marauders
+//
+//  Created by somsak02061 on 11/1/2567 BE.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+//#include "Pods/Target Support Files/Pods-MyCar/Pods-MyCar.release.xcconfig"
+#include "Configuration/Keys/PROD_KEY.xcconfig"

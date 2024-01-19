@@ -1,0 +1,13 @@
+//
+//  SIT_KEY.xcconfig
+//  marauders
+//
+//  Created by somsak02061 on 11/1/2567 BE.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+APP_NAME = marauders-SIT
+APP_BUNDLE_ID = //com.tisconet.mo5.v2
+APP_ENVIRONMENT = SIT
